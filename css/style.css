@@ -1,0 +1,132 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+
+.icon-bubbles {
+    width: 1.125em;
+}
+
+/* font-family: 'Butterfly Kids', cursive;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+    --borders: #26292e;
+    --topGrad: #f293ab;
+    --bottomGrad: #e86d8a;
+    --btnTop: #5e5d5b;
+    --btnBottom: #18211e;
+    --btnBorder: #8a8a8c;
+    --middle: #f4f4f6;
+    --midStrip: #fce3e7;
+    --bottom: #444444;
+    --bottomBorder: #bbc4d1;
+    --font: #d2d2d2;
+    --secFont: 'Butterfly Kids', cursive;
+    --primFont: 'Roboto', sans-serif;
+}
+
+/* 
+    header
+*/
+
+.header {
+    background-color: var(--borders);
+}
+
+h1 {
+    font-family: var(--secFont);
+}
+
+.nav-item {
+    margin: 0 4px;
+    height: 46px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* 
+    main
+*/
+
+.top-main {
+    background: rgb(242,147,171);
+background: radial-gradient(circle at 50% -50%, rgba(242,147,171,1) 0%, rgba(237,127,154,1) 50%, rgba(232,109,138,1) 100%);
+}
+
+.top-content {
+    font-family: var(--primFont);
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.my-btn {
+    margin-right: 40px;
+}
+
+img {
+    width: 600px;
+    height: 200px;
+    margin: 30px 0;
+}
+
+.mid-main {
+    background-color: var(--middle);
+    border-bottom: 6px solid var(--midStrip);
+}
+
+.mid-content {
+    margin: 30px 0;
+}
+
+.bottom-content {
+    margin: 30px 0;
+}
+
+.box {
+    margin: 50px 50px 0 0;
+    width: 250px;
+    height: 125px;
+    background-color: var(--bottom);
+    border: 6px solid var(--bottomBorder);
+}
+
+.icon-search {
+    margin-top: 16px;
+    margin-left: 80px;
+    width: 75px;
+    height: 75px;
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+}
+
+/* 
+    footer
+*/
+
+.footer {
+    background-color: var(--borders);
+}
+
+.colophon {
+    margin: 20px 0;
+}
